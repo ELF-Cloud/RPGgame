@@ -1,0 +1,16 @@
+Library/
+Temp/
+Logs/
+UserSettings/
+
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
