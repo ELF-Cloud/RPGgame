@@ -27,6 +27,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         anim.SetFloat("vertical", Mathf.Abs(vertical));
 
         rb.linearVelocity = new Vector2(horizontal, vertical) * speed;
+    
 
     }
     void Flip()
