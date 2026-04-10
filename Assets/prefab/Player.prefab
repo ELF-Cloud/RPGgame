@@ -212,3 +212,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHeaths
   maxHealth: 3
   currentHealth: 3
+  healthText: {fileID: 0}
