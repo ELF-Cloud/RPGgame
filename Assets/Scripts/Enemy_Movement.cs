@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.XR;
 
-public class Enemy_Movoment : MonoBehaviour
+public class Enemy_Movement : MonoBehaviour
 {
 
     public float Speed;
@@ -33,18 +33,21 @@ public class Enemy_Movoment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckForPlayer();
-        if(attackCooldownTimer > 0)
+        if(enemyState != EnemyState.Knockback)
         {
-            attackCooldownTimer -= Time.deltaTime;
-        }
-        if (enemyState == EnemyState.Chasing)
-        { 
-           Chase();
-        }
-        else if(enemyState == EnemyState.Attacking)
-        {
-            rb.linearVelocity = Vector2.zero;
+            CheckForPlayer();
+            if(attackCooldownTimer > 0)
+            {
+                attackCooldownTimer -= Time.deltaTime;
+            }
+            if (enemyState == EnemyState.Chasing)
+            { 
+            Chase();
+            }
+            else if(enemyState == EnemyState.Attacking)
+            {
+                rb.linearVelocity = Vector2.zero;
+            }
         }
     }
 
@@ -79,7 +82,7 @@ public class Enemy_Movoment : MonoBehaviour
                  ChangeState(EnemyState.Attacking);
             }
 
-        else if(Vector2.Distance(transform.position, player.position) > attackRange)
+        else if(Vector2.Distance(transform.position, player.position) > attackRange && enemyState != EnemyState.Attacking)
             {
                 ChangeState(EnemyState.Chasing);
             }
@@ -100,7 +103,7 @@ public class Enemy_Movoment : MonoBehaviour
     //         ChangeState(EnemyState.Idle);
     //     }
     // }
-    void ChangeState(EnemyState newState)
+    public void ChangeState(EnemyState newState)
     {
         if (enemyState == EnemyState.Idle)
         anim.SetBool("isIdle", false);
@@ -125,6 +128,7 @@ public enum EnemyState
 {
     Idle,
     Chasing,
-    Attacking
+    Attacking,
+    Knockback
 
 }
