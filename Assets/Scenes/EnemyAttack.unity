@@ -3698,7 +3698,7 @@ MonoBehaviour:
   knockbackForce: 10
   knockbackTime: 0.15
   stunTime: 0.2
-  speed: 2
+  speed: 6
   maxHealth: 20
   currentHealth: 20
 --- !u!4 &1519880950
@@ -3966,10 +3966,16 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7761973945439265058, guid: ba2708e4768b5449db297f477452015a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 302526578}
+    - targetCorrespondingSourceObject: {fileID: 7761973945439265058, guid: ba2708e4768b5449db297f477452015a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2006111637}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5178233290258832396, guid: ba2708e4768b5449db297f477452015a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1743907059}
+    - targetCorrespondingSourceObject: {fileID: 5178233290258832396, guid: ba2708e4768b5449db297f477452015a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1743907062}
   m_SourcePrefab: {fileID: 100100000, guid: ba2708e4768b5449db297f477452015a, type: 3}
 --- !u!4 &1621335815 stripped
 Transform:
@@ -4257,6 +4263,21 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 7957412235005272176, guid: ba2708e4768b5449db297f477452015a, type: 3}
   m_PrefabInstance: {fileID: 1581798521}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1743907062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743907058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e844a34a1b3e74a6dbbb8c6ff2d63b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Bow
+  launchPoint: {fileID: 2006111637}
+  arrowPrefab: {fileID: 6224293610789374562, guid: a8bd45b557a0b42dca4814465857d70a, type: 3}
+  shootCooldown: 0.5
 --- !u!1 &1774456040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,6 +4475,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894506246}
   m_CullTransparentMesh: 1
+--- !u!1 &2006111636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2006111637}
+  m_Layer: 6
+  m_Name: LaucherPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2006111637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006111636}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.61, y: -0.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1621335815}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2091778579
 PrefabInstance:
   m_ObjectHideFlags: 0
