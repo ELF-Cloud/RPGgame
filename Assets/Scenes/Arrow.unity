@@ -514,6 +514,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f706c380be5734ea9f015319f99885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Knockback
+--- !u!1 &1024537160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1024537161}
+  m_Layer: 6
+  m_Name: LaunchPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1024537161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024537160}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.74, y: -0.16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1621335815}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1211690273
 GameObject:
   m_ObjectHideFlags: 3
@@ -3196,10 +3227,16 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7761973945439265058, guid: ba2708e4768b5449db297f477452015a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 302526578}
+    - targetCorrespondingSourceObject: {fileID: 7761973945439265058, guid: ba2708e4768b5449db297f477452015a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1024537161}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5178233290258832396, guid: ba2708e4768b5449db297f477452015a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1743907059}
+    - targetCorrespondingSourceObject: {fileID: 5178233290258832396, guid: ba2708e4768b5449db297f477452015a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1743907067}
   m_SourcePrefab: {fileID: 100100000, guid: ba2708e4768b5449db297f477452015a, type: 3}
 --- !u!4 &1621335815 stripped
 Transform:
@@ -3239,6 +3276,21 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 7957412235005272176, guid: ba2708e4768b5449db297f477452015a, type: 3}
   m_PrefabInstance: {fileID: 1581798521}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1743907067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743907058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e844a34a1b3e74a6dbbb8c6ff2d63b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Bow
+  launchPoint: {fileID: 1024537161}
+  arrowPrefab: {fileID: 6224293610789374562, guid: a8bd45b557a0b42dca4814465857d70a, type: 3}
+  shootCooldown: 0.5
 --- !u!1 &1875750634
 GameObject:
   m_ObjectHideFlags: 0

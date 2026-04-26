@@ -285,6 +285,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1621335815}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &895730020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895730021}
+  m_Layer: 6
+  m_Name: LaunchPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895730021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895730020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1621335815}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &907136645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -363,7 +394,7 @@ PrefabInstance:
       objectReference: {fileID: 1576258878}
     - target: {fileID: 5770279648860581406, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: playerLayer.m_Bits
-      value: 64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6884358560656617718, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: stunTime
@@ -383,7 +414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6884358560656617718, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: playerLayer.m_Bits
-      value: 64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7368856678830925817, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: m_FlipX
@@ -395,7 +426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8147763746710985593, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3196,6 +3227,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7761973945439265058, guid: ba2708e4768b5449db297f477452015a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 302526578}
+    - targetCorrespondingSourceObject: {fileID: 7761973945439265058, guid: ba2708e4768b5449db297f477452015a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 895730021}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5178233290258832396, guid: ba2708e4768b5449db297f477452015a, type: 3}
       insertIndex: -1
@@ -3230,7 +3264,7 @@ MonoBehaviour:
   stunTime: 0.2
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   damage: 1
   anim: {fileID: 1743907061}
   cooldown: 2
