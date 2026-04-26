@@ -171,6 +171,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d82bdf1c2c94042dfa3565829504f24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Combat
+  attackPoint: {fileID: 0}
+  weaponRange: 0
+  knockbackForce: 0
+  stunTime: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
   damage: 1
 --- !u!114 &5770279648860581406
 MonoBehaviour:
@@ -185,4 +192,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Movoment
   Speed: 4
-  player: {fileID: 0}
+  attackRange: 2
+  attackCooldown: 2
+  playerDetectRange: 5
+  dectectionPoint: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  enemyState: 0
+  newState: 0
