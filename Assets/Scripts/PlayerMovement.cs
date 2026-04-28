@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
 
     private bool isKnockedBack;
+    public bool isShooting;
 
     public Player_Combat player_Combat;
 
@@ -29,8 +30,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
-        if(isKnockedBack == false)
+        if(isShooting == true)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+        else if(isKnockedBack == false)
         {
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
