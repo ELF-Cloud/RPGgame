@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 634da3af4648bd744a4c25cf232f57f8
+guid: 8d357603d0580f44d9b86fdc4178e8d3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -36,7 +36,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 64
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -73,7 +73,7 @@ ScriptedImporter:
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
     fileImportMode: 1
-    importHiddenLayers: 0
+    importHiddenLayers: 1
     layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
@@ -88,7 +88,7 @@ ScriptedImporter:
     generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
-    importHiddenLayers: 0
+    importHiddenLayers: 1
     layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 639112502802580118
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 111
       height: 174
-    spriteID: 20a42fdf6a2ca5b439e1130f0a48e960
+    spriteID: a8dcfe88d3961424b8324f6cd599373b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,7 +160,7 @@ ScriptedImporter:
       y: 186
       width: 111
       height: 174
-    spriteID: 89d3d450b8871c3419d1f1cad278daa8
+    spriteID: f1df7453598d1fa46a035436d834a44f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
       y: 4
       width: 110
       height: 174
-    spriteID: 781f971f39d3ffd48895ed4e4f602aab
+    spriteID: e0e2b9ae15288f943a568fa0146ba93c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,7 +202,7 @@ ScriptedImporter:
       y: 4
       width: 111
       height: 174
-    spriteID: 88b9d3e943561064c8638135d51b30c7
+    spriteID: 045e81fd0850ca44abcfa04465f14448
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -223,7 +223,7 @@ ScriptedImporter:
       y: 186
       width: 111
       height: 174
-    spriteID: 624ff0a1f16dff64f8d6c8938ef5fbf3
+    spriteID: 8a2b3354ffebf894ca956f26987e3f95
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -244,7 +244,7 @@ ScriptedImporter:
       y: 4
       width: 106
       height: 173
-    spriteID: 8ddec1c9c1cd8b74eb36d572ce1313e4
+    spriteID: c51dbf83dbe7b444893fb0995b8b9c38
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -265,7 +265,7 @@ ScriptedImporter:
       y: 186
       width: 109
       height: 171
-    spriteID: 6e3500ef79f45524795cd963256014df
+    spriteID: 949d8b3fc30691843a6cc8d0cc2685db
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -286,7 +286,7 @@ ScriptedImporter:
       y: 368
       width: 36
       height: 30
-    spriteID: 4e5838f37d0ba7d4cb922b8b5e5154e9
+    spriteID: 73276330f97ec57458188de3abc0bbf9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -318,7 +318,7 @@ ScriptedImporter:
         y: 14
         width: 111
         height: 174
-      spriteId: 20a42fdf6a2ca5b439e1130f0a48e960
+      spriteId: a8dcfe88d3961424b8324f6cd599373b
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: 14
         width: 111
         height: 174
-      spriteId: 89d3d450b8871c3419d1f1cad278daa8
+      spriteId: f1df7453598d1fa46a035436d834a44f
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -336,7 +336,7 @@ ScriptedImporter:
         y: 14
         width: 110
         height: 174
-      spriteId: 781f971f39d3ffd48895ed4e4f602aab
+      spriteId: e0e2b9ae15288f943a568fa0146ba93c
     - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -345,7 +345,7 @@ ScriptedImporter:
         y: 14
         width: 111
         height: 174
-      spriteId: 88b9d3e943561064c8638135d51b30c7
+      spriteId: 045e81fd0850ca44abcfa04465f14448
     - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
@@ -354,7 +354,7 @@ ScriptedImporter:
         y: 14
         width: 111
         height: 174
-      spriteId: 624ff0a1f16dff64f8d6c8938ef5fbf3
+      spriteId: 8a2b3354ffebf894ca956f26987e3f95
     - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
@@ -363,7 +363,7 @@ ScriptedImporter:
         y: 14
         width: 106
         height: 173
-      spriteId: 8ddec1c9c1cd8b74eb36d572ce1313e4
+      spriteId: c51dbf83dbe7b444893fb0995b8b9c38
     - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
@@ -372,7 +372,7 @@ ScriptedImporter:
         y: 14
         width: 109
         height: 171
-      spriteId: 6e3500ef79f45524795cd963256014df
+      spriteId: 949d8b3fc30691843a6cc8d0cc2685db
     - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
@@ -381,13 +381,37 @@ ScriptedImporter:
         y: 16
         width: 36
         height: 30
-      spriteId: 4e5838f37d0ba7d4cb922b8b5e5154e9
+      spriteId: 73276330f97ec57458188de3abc0bbf9
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   tileSets: []
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 

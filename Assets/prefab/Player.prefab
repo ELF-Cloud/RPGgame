@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 753635961558784453}
   - component: {fileID: 7957412235005272176}
   - component: {fileID: 6140760343361507767}
+  - component: {fileID: 164297917135518966}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,10 +173,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f3955580a39472593c48203d1d5fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  speed: 5
   facingDirection: 1
   rb: {fileID: 3741356923761745284}
   anim: {fileID: 7957412235005272176}
+  isShooting: 0
+  player_Combat: {fileID: 0}
 --- !u!95 &7957412235005272176
 Animator:
   serializedVersion: 7
@@ -210,6 +212,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80c66f2bd46a457eb5b147414c5dbe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHeaths
-  maxHealth: 3
-  currentHealth: 3
   healthText: {fileID: 0}
+  healTextAnim: {fileID: 0}
+--- !u!114 &164297917135518966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178233290258832396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3255f0fe48a8f504394c8f1a5dfa9056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSorting
+  defaultOrder: 5
