@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2732895736602741216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6146710948718132432}
+  m_Layer: 6
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6146710948718132432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2732895736602741216}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.44, y: -0.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7761973945439265058}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5145902643678681076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 885684695842916204}
+  m_Layer: 6
+  m_Name: LaucherPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &885684695842916204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145902643678681076}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.61, y: -0.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7761973945439265058}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5178233290258832396
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,9 +77,13 @@ GameObject:
   - component: {fileID: 753635961558784453}
   - component: {fileID: 7957412235005272176}
   - component: {fileID: 6140760343361507767}
-  m_Layer: 0
+  - component: {fileID: 232533309656352850}
+  - component: {fileID: 7789255993394758138}
+  - component: {fileID: 6194642366520154461}
+  - component: {fileID: 5534847237389159694}
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,9 +98,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1685078, y: 1.261426, z: 0.936664}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6146710948718132432}
+  - {fileID: 885684695842916204}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2089239249676655912
@@ -172,10 +240,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f3955580a39472593c48203d1d5fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  speed: 5
   facingDirection: 1
   rb: {fileID: 3741356923761745284}
   anim: {fileID: 7957412235005272176}
+  isShooting: 0
+  player_Combat: {fileID: 232533309656352850}
 --- !u!95 &7957412235005272176
 Animator:
   serializedVersion: 7
@@ -210,6 +279,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80c66f2bd46a457eb5b147414c5dbe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHeaths
-  maxHealth: 3
-  currentHealth: 3
   healthText: {fileID: 0}
+  healTextAnim: {fileID: 0}
+--- !u!114 &232533309656352850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178233290258832396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3c3d47235a1394da7fffde56ff1044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Combat
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  attackPoint: {fileID: 6146710948718132432}
+  statsUI: {fileID: 0}
+  anim: {fileID: 7957412235005272176}
+  cooldown: 2
+--- !u!114 &7789255993394758138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178233290258832396}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e844a34a1b3e74a6dbbb8c6ff2d63b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Bow
+  launchPoint: {fileID: 885684695842916204}
+  arrowPrefab: {fileID: 6224293610789374562, guid: a8bd45b557a0b42dca4814465857d70a, type: 3}
+  playerMovement: {fileID: 753635961558784453}
+  shootCooldown: 0.5
+  anim: {fileID: 7957412235005272176}
+--- !u!114 &6194642366520154461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178233290258832396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3c30631f29c5a438e4518ac544baf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_ChangeEquipment
+  combat: {fileID: 232533309656352850}
+  bow: {fileID: 7789255993394758138}
+--- !u!114 &5534847237389159694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178233290258832396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3255f0fe48a8f504394c8f1a5dfa9056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSorting
+  defaultOrder: 5
