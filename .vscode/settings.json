@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "RPGgame.slnx"
+    "dotnet.defaultSolution": "MakeGame.slnx"
 }
