@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|c:\\users\\hoangank\\documents\\github\\rpggame\\assets\\scripts\\expmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\expmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|c:\\users\\hoangank\\documents\\github\\rpggame\\assets\\scripts\\enemy_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|c:\\users\\hoangank\\documents\\github\\rpggame\\assets\\scripts\\player_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Enemy_Health.cs",
+              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\Enemy_Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Health.cs",
+              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\Enemy_Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_Health.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T09:35:16.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpManager.cs",
+              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\ExpManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExpManager.cs",
+              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\ExpManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExpManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T09:13:59.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "StatsUI.cs",
               "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\StatsUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StatsUI.cs",
@@ -42,12 +76,11 @@
               "RelativeToolTip": "Assets\\Scripts\\StatsUI.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T14:04:38.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T14:04:38.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StatsManager.cs",
               "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\StatsManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StatsManager.cs",
@@ -59,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerHeaths.cs",
               "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\PlayerHeaths.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHeaths.cs",
@@ -71,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -83,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player_Combat.cs",
               "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\Player_Combat.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player_Combat.cs",
               "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\Player_Combat.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player_Combat.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA6wCEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwCEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T13:36:08.093Z",
               "EditorCaption": ""

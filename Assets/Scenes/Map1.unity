@@ -118123,9 +118123,17 @@ PrefabInstance:
       propertyPath: statsUI
       value: 
       objectReference: {fileID: 651888286}
+    - target: {fileID: 2089239249676655912, guid: ba2708e4768b5449db297f477452015a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5178233290258832396, guid: ba2708e4768b5449db297f477452015a, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534847237389159694, guid: ba2708e4768b5449db297f477452015a, type: 3}
+      propertyPath: defaultOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6140760343361507767, guid: ba2708e4768b5449db297f477452015a, type: 3}
       propertyPath: healthText
@@ -118195,10 +118203,10 @@ SortingGroup:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488877891}
-  m_Enabled: 1
+  m_Enabled: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
 --- !u!1 &1660193925
