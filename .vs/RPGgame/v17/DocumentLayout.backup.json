@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\",
+  "WorkspaceRootPath": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|c:\\users\\hoangank\\documents\\github\\rpggame\\assets\\scripts\\expmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\expmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|d:\\adobe\\project\\do an unitity\\rpggame\\assets\\scripts\\enemy_sortingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_sortingorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|c:\\users\\hoangank\\documents\\github\\rpggame\\assets\\scripts\\enemy_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|d:\\adobe\\project\\do an unitity\\rpggame\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|D:\\Adobe\\Project\\do an unitity\\RPGgame\\assets\\scripts\\enemy_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|c:\\users\\hoangank\\documents\\github\\rpggame\\assets\\scripts\\player_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|D:\\Adobe\\Project\\do an unitity\\RPGgame\\assets\\scripts\\enemy_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\assets\\scripts\\statsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|D:\\Adobe\\Project\\do an unitity\\RPGgame\\assets\\scripts\\enemy_knockback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_knockback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\assets\\scripts\\statsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\assets\\scripts\\playerheaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerheaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|D:\\Adobe\\Project\\do an unitity\\RPGgame\\assets\\scripts\\enemy_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C81248A9-9DF7-F925-C658-71B216640B53}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Enemy_Health.cs",
-              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\Enemy_Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Health.cs",
-              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\Enemy_Health.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy_Health.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T09:35:16.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExpManager.cs",
-              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\ExpManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ExpManager.cs",
-              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\ExpManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ExpManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Title": "Enemy_SortingOrder.cs",
+              "DocumentMoniker": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_SortingOrder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_SortingOrder.cs",
+              "ToolTip": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_SortingOrder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_SortingOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T09:13:59.938Z",
+              "WhenOpened": "2026-05-15T05:21:47.461Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StatsUI.cs",
-              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\StatsUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsUI.cs",
-              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\StatsUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StatsUI.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T14:04:38.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StatsManager.cs",
-              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\StatsManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsManager.cs",
-              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\StatsManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StatsManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:39:27.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerHeaths.cs",
-              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\PlayerHeaths.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHeaths.cs",
-              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\PlayerHeaths.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerHeaths.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T16:23:08.873Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowC4AAABgAAAAAAAAAA==",
+              "Title": "Enemy_Movement.cs",
+              "DocumentMoniker": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Movement.cs",
+              "ToolTip": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_Movement.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAUwIUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T16:22:24.696Z"
+              "WhenOpened": "2026-05-15T05:01:41.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy_Knockback.cs",
+              "DocumentMoniker": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_Knockback.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Knockback.cs",
+              "ToolTip": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_Knockback.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_Knockback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T05:01:39.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy_Combat.cs",
+              "DocumentMoniker": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_Combat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Combat.cs",
+              "ToolTip": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_Combat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_Combat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T05:01:35.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T04:55:30.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Player_Combat.cs",
-              "DocumentMoniker": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\Player_Combat.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player_Combat.cs",
-              "ToolTip": "C:\\Users\\HoangAnk\\Documents\\GitHub\\RPGgame\\Assets\\Scripts\\Player_Combat.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player_Combat.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwCEAAAAfAAAAAAAAAA==",
+              "Title": "Enemy_Health.cs",
+              "DocumentMoniker": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Health.cs",
+              "ToolTip": "D:\\Adobe\\Project\\do an unitity\\RPGgame\\Assets\\Scripts\\Enemy_Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_Health.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:36:08.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T09:35:16.957Z"
             }
           ]
         }

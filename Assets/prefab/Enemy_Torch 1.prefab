@@ -71,12 +71,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2785163232101940912, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3533
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785163232101940912, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2842
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785163232101940912, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.45
+      value: -4.0057
       objectReference: {fileID: 0}
     - target: {fileID: 2785163232101940912, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.31237
+      value: -0.6849
       objectReference: {fileID: 0}
     - target: {fileID: 2785163232101940912, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -168,7 +176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8147763746710985593, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: m_Name
-      value: Enemy_Torch Variant
+      value: Enemy_Torch 1
       objectReference: {fileID: 0}
     - target: {fileID: 8147763746710985593, guid: 5dbc6bfff125e4d4fbafb6834031f34a, type: 3}
       propertyPath: m_Layer
@@ -277,6 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04898b46620db7a468b10089393875b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Health
+  expReward: 3
   currentHealth: 5
   maxHealth: 5
 --- !u!114 &919374427254896575
